@@ -126,3 +126,36 @@ a:hover {
   color: #e75c5c;
   text-decoration: underline;
 }
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  body {
+    padding: 12px;
+  }
+
+  .about-flex,
+  .education-item,
+  .experience-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-flex img,
+  .education-item img,
+  .experience-item img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 12px;
+  }
+
+  nav div {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 6px;
+  }
+}
