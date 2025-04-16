@@ -2,7 +2,7 @@
 layout: default
 title: "Leo Liu | Personal Website"
 ---
-
+<div id="about-anchor" class="anchor-offset"></div>
 <section id="about">
 <h2>About Me</h2>
 <div class="about-flex">
@@ -19,7 +19,7 @@ title: "Leo Liu | Personal Website"
 </div>
 </section>
 
-
+<div id="education-anchor" class="anchor-offset"></div>
 <section id="education">
   <h2>Education</h2>
 
@@ -60,7 +60,7 @@ title: "Leo Liu | Personal Website"
 </section>
 
 
-
+<div id="experience-anchor" class="anchor-offset"></div>
 <section id="experience">
   <h2>Experience</h2>
 
@@ -103,7 +103,7 @@ title: "Leo Liu | Personal Website"
 
 </section>
 
-
+<div id="projects-anchor" class="anchor-offset"></div>
 <section id="projects">
   <h2>Projects</h2>
   <ul>
@@ -126,7 +126,7 @@ title: "Leo Liu | Personal Website"
   </ul>
 </section>
 
-
+<div id="skills-anchor" class="anchor-offset"></div>
 <section id="skills">
   <h2>Skills</h2>
   <ul>
@@ -137,6 +137,7 @@ title: "Leo Liu | Personal Website"
   </ul>
 </section>
 
+<div id="contact-anchor" class="anchor-offset"></div>
 <section id="contact">
   <h2>Contact</h2>
   <p>
@@ -146,6 +147,7 @@ title: "Leo Liu | Personal Website"
   </p>
 </section>
 
+<div id="other-anchor" class="anchor-offset"></div>
 <section id="other">
   <h2>Other</h2>
   <p>

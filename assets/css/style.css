@@ -160,10 +160,9 @@ a:hover {
   }
 }
 
-:target::before {
-  content: "";
+.anchor-offset {
   display: block;
-  height: 70px; /* 高度 = 导航栏高度 */
-  margin-top: -70px;
+  height: 80px;  /* = 导航栏高度 */
+  margin-top: -80px;
   visibility: hidden;
 }
