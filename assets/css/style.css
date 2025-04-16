@@ -159,3 +159,11 @@ a:hover {
     margin: 6px;
   }
 }
+
+:target::before {
+  content: "";
+  display: block;
+  height: 70px; /* 高度 = 导航栏高度 */
+  margin-top: -70px;
+  visibility: hidden;
+}
