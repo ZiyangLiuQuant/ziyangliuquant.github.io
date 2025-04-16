@@ -2,5 +2,10 @@ title: Leo Liu | Personal Website
 email: zl978@cornell.edu
 description: >
   Cornell MFE | Quant Research | Systematic Trading | Market Microstructure
-baseurl: ""
-url: ""
+
+baseurl: "" # important for root-level site
+url: "https://ziyangliuquant.github.io"
+
+markdown: kramdown
+theme: minima
+plugins: []
